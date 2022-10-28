@@ -1,9 +1,10 @@
 import React from 'react'
-
+// import ".."
 
 export default function Maincontainer() {
     return (
         <>
+        <div className='center'>
             <div className="container">
                 <div className="cards">
                     Card 11
@@ -37,6 +38,7 @@ export default function Maincontainer() {
                     Card 33
                 </div>
             </div>
+            </div>    
         </>
     )
 }
