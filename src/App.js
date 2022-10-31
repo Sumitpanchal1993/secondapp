@@ -14,6 +14,7 @@ import Contactus from './Components/Contactus';
 import WorkDone from './Components/WorkDone';
 import Aboutus from './Components/Aboutus';
 import Home from './Components/Home';
+import Userregd from './Components/Userregd';
 
 
 export default class App extends Component {
@@ -29,8 +30,9 @@ export default class App extends Component {
             <Route exact path='/customers' element={<Customers />} />
             <Route exact path='/contactus' element={<Contactus />} />
             <Route exact path='/aboutus' element={<Aboutus />} />
-            <Route exact path='/workdone' element={<WorkDone />} />
+            <Route exact path='/workdone' element={<WorkDone heading='Completed Work is listed here'/>} />
             <Route exact path='/todo' element={<WorkTodo />} />
+            <Route exact path='/userregd' element={<Userregd />} />
           </Routes>
           {/* <Leftsidebar/> */}
         </Router>

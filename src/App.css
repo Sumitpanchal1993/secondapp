@@ -75,5 +75,10 @@ div.cards{
   justify-content: center;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  
+}
+.formcenter{
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
 }

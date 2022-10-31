@@ -6,26 +6,30 @@ export default class WorkDone extends Component {
     return (
       <>
       <div>
-        <h1 className='center'>This is Work Done Page</h1>
-        <div className='container center mx-3 my-3' >
-          <div>
-           <table className='table mx-2 my-2 border-danger'>
+        <h2 className='center'>{this.props.heading}</h2>
+        <div className='container center' >          
+          <table className='container'>
             <thead>
-              <th scope='col mx-3'>S.No</th>
+              <th>S.No</th>
               <th>Name</th>
-              <th>Mobile Number</th>
+              <th>Mobile</th>
               <th>Email</th>
-              <th>ID No.</th>
+              <th>Address</th>
               <th>Remark</th>
             </thead>
             <tr>
-
+              <td>1</td>
+              <td>Sumit</td>
+              <td>1234567980</td>
+              <td>Sumit@panchal.com</td>
+              <td>Good Boy</td>
+              <td>Good Emplloyee</td>
             </tr>
-           </table>
-          </div>
+          </table>      
         </div>
       </div>
       </>
     )
   }
 }
+
