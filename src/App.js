@@ -24,14 +24,14 @@ export default class App extends Component {
         <Router>
           <Navbar />
           <Routes>
-            <Route exact path='/' element={<Home />} />
+            <Route exact path='/' element={<Home pass='Props passed' />} />
             <Route exact path='/career' element={<Career />} />
             <Route exact path='/products' element={<Products />} />
             <Route exact path='/customers' element={<Customers />} />
             <Route exact path='/contactus' element={<Contactus />} />
             <Route exact path='/aboutus' element={<Aboutus />} />
             <Route exact path='/workdone' element={<WorkDone heading='Completed Work is listed here'/>} />
-            <Route exact path='/todo' element={<WorkTodo />} />
+            <Route exact path='/todo' element={<WorkTodo txt ='Put your text here' />} />
             <Route exact path='/userregd' element={<Userregd />} />
           </Routes>
           {/* <Leftsidebar/> */}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import '../Components/WorkTodo.css'
+import PropTypes from 'prop-types'
 
 
 export default class WorkTodo extends Component {
-  
   render() {
     return (
       <>
@@ -15,7 +15,7 @@ export default class WorkTodo extends Component {
               <input type="text" className="form-control" id="title" placeholder="Brief Detail" />
             </div>
             <div className="mb-3, title">
-              <label htmlFor="exampleFormControlTextarea1" className="form-label">Details of Work</label>
+              <label htmlFor="exampleFormControlTextarea1" className="form-label" placeholder={this.props.txt}>Details of Work</label>
               <textarea className="form-control" id="desc" rows="5"></textarea>
             </div>
             <div className='my-3'>
@@ -32,6 +32,7 @@ export default class WorkTodo extends Component {
     )
   }
 }
+
 
 // function submitresp() {
 //   fn = document.getElementById('first_name').value;

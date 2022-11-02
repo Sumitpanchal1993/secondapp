@@ -9,14 +9,14 @@ export default class WorkDone extends Component {
         <h2 className='center'>{this.props.heading}</h2>
         <div className='container center' >          
           <table className='container'>
-            <thead>
+            <td>
               <th>S.No</th>
               <th>Name</th>
               <th>Mobile</th>
               <th>Email</th>
               <th>Address</th>
               <th>Remark</th>
-            </thead>
+            </td>
             <tr>
               <td>1</td>
               <td>Sumit</td>
