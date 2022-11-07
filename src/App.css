@@ -63,6 +63,7 @@ div.container{
   margin: 5px;
   padding: 5px;
   align-items: center;
+  justify-content: center;
 }
 div.cards{
   width: 33%;

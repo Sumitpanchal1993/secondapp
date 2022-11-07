@@ -2,14 +2,21 @@ import React, { Component } from 'react'
 import '../Components/WorkTodo.css'
 import PropTypes from 'prop-types'
 
-
+let resp = fetch('https://reqres.in/api/users')
+console.log(resp.data)
 export default class WorkTodo extends Component {
+
+  constructor(props){
+    super(props)
+   this.state={name: 'Sumit'}
+  }
   render() {
     return (
       <>
         <form action="#">
           <div className='base'>
             <h1 className='titled'>Add Things ToDo</h1>
+            <h3>{this.props.any}</h3>
             <div className="mb-3, title">
               <label htmlFor="exampleFormControlInput1" className="form-label">Title of Work</label>
               <input type="text" className="form-control" id="title" placeholder="Brief Detail" />
@@ -26,7 +33,7 @@ export default class WorkTodo extends Component {
           </div>
         </form>
         <div>
-          {/* <h3>{titletxt}</h3> */}
+          <h1>{this.state.name}</h1>
         </div>
       </>
     )

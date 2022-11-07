@@ -2,31 +2,17 @@ import React, { Component } from 'react'
 import '../Components/WorkDone.css'
 
 export default class WorkDone extends Component {
+  constructor(props){
+    super(props)
+    this.state={}
+  }
   render() {   
     return (
       <>
       <div>
-        <h2 className='center'>{this.props.heading}</h2>
-        <div className='container center' >          
-          <table className='container'>
-            <td>
-              <th>S.No</th>
-              <th>Name</th>
-              <th>Mobile</th>
-              <th>Email</th>
-              <th>Address</th>
-              <th>Remark</th>
-            </td>
-            <tr>
-              <td>1</td>
-              <td>Sumit</td>
-              <td>1234567980</td>
-              <td>Sumit@panchal.com</td>
-              <td>Good Boy</td>
-              <td>Good Emplloyee</td>
-            </tr>
-          </table>      
-        </div>
+        <table>
+          <h1>Somethinng </h1>
+        </table>
       </div>
       </>
     )

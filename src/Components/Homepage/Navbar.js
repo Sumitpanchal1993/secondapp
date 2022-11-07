@@ -7,8 +7,8 @@ export default function Navbar(props) {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to={"/"}>ORGANISATION</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent"      aria-expanded="false" aria-label="Toggle navigation">
+                    <Link className="navbar-brand" to={"/"}>{props.heading}</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"      aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,6 +41,7 @@ export default function Navbar(props) {
                                 <Link className="nav-link active" aria-current="page" to={"/userregd"}>Regsiter Now!</Link>
                             </li>                            
                         </ul>
+                        <Link to={'/loginpage'}><button className="btn btn-outline-primary mx-2" type="Login">Login</button></Link>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-primary" type="submit">Search</button>

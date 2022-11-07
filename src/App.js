@@ -15,6 +15,8 @@ import WorkDone from './Components/WorkDone';
 import Aboutus from './Components/Aboutus';
 import Home from './Components/Home';
 import Userregd from './Components/Userregd';
+import Loginpage from './Components/Loginpage';
+
 
 
 export default class App extends Component {
@@ -22,9 +24,9 @@ export default class App extends Component {
     return (
       <>
         <Router>
-          <Navbar />
+          <Navbar heading='Gazet.com' />
           <Routes>
-            <Route exact path='/' element={<Home pass='Props passed' />} />
+            <Route exact path='/' element={<Home pass='Props passed'/>} />
             <Route exact path='/career' element={<Career />} />
             <Route exact path='/products' element={<Products />} />
             <Route exact path='/customers' element={<Customers />} />
@@ -33,6 +35,7 @@ export default class App extends Component {
             <Route exact path='/workdone' element={<WorkDone heading='Completed Work is listed here'/>} />
             <Route exact path='/todo' element={<WorkTodo txt ='Put your text here' />} />
             <Route exact path='/userregd' element={<Userregd />} />
+            <Route exact path='/loginpage' element={<Loginpage />} />
           </Routes>
           {/* <Leftsidebar/> */}
         </Router>
