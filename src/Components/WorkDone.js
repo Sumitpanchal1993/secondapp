@@ -5,14 +5,14 @@ export default class WorkDone extends Component {
   constructor(props){
     super(props)
     this.state={}
+    console.log('This is a Work Done Constructor')
   }
   render() {   
     return (
       <>
       <div>
-        <table>
-          <h1>Somethinng </h1>
-        </table>
+          Some Table Will be called here
+            
       </div>
       </>
     )

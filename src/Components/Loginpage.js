@@ -14,7 +14,7 @@ function Loginpage() {
                 <label className='mx-2' htmlFor="username">Username : </label>
                 <input className='mx-2' type="text" name="username" id="" />
                 <label className='mx-2' htmlFor="password">Password : </label>
-                <input className='mx-2' type="password" name="password" id="" />
+                <input className='mx-2' type="cpassword" name="cpassword" id="" />
                 </div>
                 <div className='center my-3'>
                 <button className="btn btn-success mx-2" type="submit">Login</button>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Components/WorkTodo.css'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 let resp = fetch('https://reqres.in/api/users')
 console.log(resp.data)
