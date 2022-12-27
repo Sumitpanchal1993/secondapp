@@ -17,10 +17,10 @@ export default function Navbar(props) {
                                 <Link className="nav-link active" aria-current="page" to={"/"}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to={"/career"}>Career</Link>
+                                <Link className="nav-link active" aria-current="page" to={"/products"}>Products</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to={"/products"}>Products</Link>
+                                <Link className="nav-link active" aria-current="page" to={"/career"}>Career</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to={"/customers"}>Our Customers</Link>

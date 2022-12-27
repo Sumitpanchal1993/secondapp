@@ -1,28 +1,31 @@
-import React, { Component } from 'react'
+import React, { Component} from 'react'
 import '../Components/WorkTodo.css'
 // import PropTypes from 'prop-types'
 
-let resp = fetch('https://reqres.in/api/users')
-console.log(resp.data)
-export default class WorkTodo extends Component {
 
+// console.log(resp.data)
+export default class WorkTodo extends Component {
+  onchangefn = ()=>{
+    console.log ('Updated')
+  }
   constructor(props){
     super(props)
-   this.state={name: 'Sumit'}
-  }
+   this.state=({first: 'Sumt'})
+    }
+  
+  
   render() {
     return (
       <>
         <form action="#">
           <div className='base'>
             <h1 className='titled'>Add Things ToDo</h1>
-            <h3>{this.props.any}</h3>
-            <div className="mb-3, title">
+              <div className="mb-3, title">
               <label htmlFor="exampleFormControlInput1" className="form-label">Title of Work</label>
               <input type="text" className="form-control" id="title" placeholder="Brief Detail" />
             </div>
             <div className="mb-3, title">
-              <label htmlFor="exampleFormControlTextarea1" className="form-label" placeholder={this.props.txt}>Details of Work</label>
+              <label htmlFor="exampleFormControlTextarea1" className="form-label" placeholder={this.this.state.first}>Details of Work</label>
               <textarea className="form-control" id="desc" rows="5"></textarea>
             </div>
             <div className='my-3'>
@@ -33,7 +36,7 @@ export default class WorkTodo extends Component {
           </div>
         </form>
         <div>
-          <h1>{this.state.name}</h1>
+          <h1>List here</h1>
         </div>
       </>
     )

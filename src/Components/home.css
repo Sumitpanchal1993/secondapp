@@ -1,0 +1,13 @@
+#homebase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

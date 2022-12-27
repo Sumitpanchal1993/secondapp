@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0e52db;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #01303d;
 }
 
 @keyframes App-logo-spin {
@@ -37,8 +37,10 @@
   }
 }
 body{
-  background-color: rgba(43, 176, 194, 0.514);
-
+  background-image: linear-gradient(rgb(102, 7, 7), rgba(10, 10, 92, 0.877));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 div.maindiv{
   display: flex;
@@ -70,6 +72,7 @@ div.cards{
   height: 350px;
   border: 2px solid green;
   margin: 0px 5px 0px 5px;
+  color: black;
 }
 .center{
   text-align: center;

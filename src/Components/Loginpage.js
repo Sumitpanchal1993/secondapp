@@ -6,7 +6,7 @@ function Loginpage() {
     <>
     <div className="base">
         <div className='center'>
-            <h3>login</h3>
+            <h3>Login Here</h3>
         </div>
         <div>
             <form action="" className='container'>
@@ -14,7 +14,7 @@ function Loginpage() {
                 <label className='mx-2' htmlFor="username">Username : </label>
                 <input className='mx-2' type="text" name="username" id="" />
                 <label className='mx-2' htmlFor="password">Password : </label>
-                <input className='mx-2' type="cpassword" name="cpassword" id="" />
+                <input className='mx-2' type="password" name="cpassword" id="" />
                 </div>
                 <div className='center my-3'>
                 <button className="btn btn-success mx-2" type="submit">Login</button>
