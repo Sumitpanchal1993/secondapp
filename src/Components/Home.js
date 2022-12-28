@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import '../Components/home.css'
+import{Link} from 'react-router-dom'
 
-function more(){
-  console.log('Clicked')
-}
+// function more(){
+//   console.log('Clicked')
+// }
 
 export default class Home extends Component {
-  constructor(props) {
-    super(props)
+  // constructor(props) {
+  //   super(props)
 
-  }
+  // }
   render() {
     return (
       <>
@@ -22,10 +23,10 @@ export default class Home extends Component {
             
           </div>
           <div>
-            Gears are the key Component in the Technology field.
+            Gears are the key Component in the Transmission Technology.
             Gears are the proven source of Power Transmission.
           </div>
-            <button className='btn btn-primary my-3'><a href="/products">Know More</a></button>
+            <button className='btn btn-primary my-3'><Link to="/products">Know More</Link></button>
           </div>
         </div>
       </>

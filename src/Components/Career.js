@@ -27,13 +27,8 @@ export default class Career extends Component {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Front end developer</td>
-                  <td>React JS, HTML , CSS, JS Expert</td>
-                  <td>Indore M.P.</td>
-                  <td><input className='btn btn-success' type="button" value="Apply" /></td>
-                </tr>
+                
+                
               </tbody>
             </table>
           </div>

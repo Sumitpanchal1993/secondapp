@@ -20,7 +20,7 @@ function Loginpage() {
                 <button className="btn btn-success mx-2" type="submit">Login</button>
                 <button className="btn btn-success mx-2" type="reset">Reset</button>
                 <div className='center my-3'>
-                    Not yet Registered <Link to={"/userregd"}>"click here" </Link> to register Now !
+                   <span> Not yet Registered <Link to={"/userregd"}>"click here" </Link> to register Now !</span>
                 </div>
                 </div>
             </form>

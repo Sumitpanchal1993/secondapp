@@ -1,0 +1,26 @@
+.prdbase{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 10px;   
+    text-align: center;
+
+}
+.cardopt{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 black;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cardopt:hover{
+    zoom: 105%;
+}
+
+img.logo{
+    width: 150px;
+    border-radius: 50%;
+}
